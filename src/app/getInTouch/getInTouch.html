@@ -1,0 +1,20 @@
+<div class="container ghm_wrapper_no_back">
+    <div class="brz-wrapper">
+        <h2 class="get_in_touch">Get In Touch</h2>
+    </div>
+    <div class="form_container">
+        <div *ngIf="submitted" class="alert alert-success">{{responseMessage}}</div>
+        <form [formGroup]="getInTouchForm" (ngSubmit)="onSubmit()">
+            <div class="form_fields">
+                <div class="form_item">
+                    <input (change)="onChangeInput()" type="text" formControlName="name" placeholder="Name" class="brz-input input_area" />
+                    <input (change)="onChangeInput()" type="email" formControlName="email" placeholder="Email" class="brz-input input_area" />
+                </div>
+                <div class="form_item">
+                    <textarea (change)="onChangeInput()" class="brz-input text_area" formControlName="message" placeholder="Message" data-type="Paragraph" data-label="Message"></textarea>
+                </div>
+            </div>
+            <button [disabled]="getInTouchForm.invalid" class="brz-btn">SEND MESSAGE</button>
+        </form>
+    </div>
+</div>

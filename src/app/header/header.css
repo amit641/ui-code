@@ -1,0 +1,42 @@
+.container{
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.brand_icon{
+    display: inline-block;
+}
+.brand_icon .logo-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.brand_icon .logo-link img{
+    width:70px;
+    margin-right: 12px;
+}
+.brand_icon .logo-link span{
+    font-size: 30px;
+    display: block;
+    position: relative;
+    top: 8px;
+}
+.navigation_block{
+    float: right;
+    position: relative;
+    top: 30px;
+}
+.main-menu{
+    list-style: none;
+    padding: 0px;
+}
+.main-menu  > .menu-item{
+    display: inline-block;
+    margin: 0px 20px;
+}
+.main-menu  > .menu-item > .menu-link{
+    text-decoration: none;
+}
+.oceanwp-mobile-menu-icon, .header-searchform-wrap{
+    display: none;
+}

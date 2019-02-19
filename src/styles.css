@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+body,h1,h2,h3,h4,h5,h6,p,strong,span,a,small,b,li,th,td, input{
+    font-family: 'Roboto' !important;
+}
+
+.ghm_paragraph{
+    color: #929292;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 1.4em;
+    margin: 0px 0px 20px;
+}
+.ghm_wrapper{
+    padding: 20px 40px !important;
+    position: relative;
+    width: 1100px !important;
+}
+.page_img{
+    display: block;
+    width: 100%;
+    height: 350px;
+    border: 1px solid #f2f2f2;
+}
+.page_img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.page_title{
+    margin: 10px 0px 35px;
+}
+.page_title h1{
+    font-size: 30px;
+    color: #142850;
+    font-family: poppins !important;
+}
+.page_title span{
+    position: absolute;
+    left: -25px;
+    color: #002797;
+    font-weight: 800;
+}
+.page_title svg{
+    width:50px;
+    height: 50px;
+}
+.contact{
+    text-align: center;
+}
+.contact h3{
+    font-size: 18px;
+    margin: 30px 0px 0px;
+    color: #5b60f9;
+}
